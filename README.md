@@ -17,11 +17,11 @@ For a detailed exaplanation of the dataset generation process refers to Section 
 The csv files reported in the [data](data) folder refers to the data used in the context of RQ1, RQ2, and RQ3.
 
 
-Questions about the dataset can be asked by opening issues on this repository, or by sending an e-mail to tbd@easychair.org.
+Questions about the dataset can be asked by opening issues on this repository, or by sending an e-mail to icpe2024-data-challenge@easychair.org.
 
 ## Usage example
 
-The Jupyter notebooks [Example-Supervised.ipynb](Example-Supervised.ipynb) and [Example-Unsupervised.ipynb](Example-Supervised.ipynb) report explanatory examples of dataset usage, involving the adoption of unsupervised and supervised machine learning models, respectively. The notebooks execution requires `pandas`, `scikit-learn`, `seaborn` and `notebook`:
+The Jupyter notebooks [Example-Supervised.ipynb](Example-Supervised.ipynb) and [Example-Unsupervised.ipynb](Example-Supervised.ipynb) report explanatory examples of dataset usage, involving the adoption of supervised and unsupervised machine learning models, respectively. The notebooks execution requires `pandas`, `scikit-learn`, `seaborn` and `notebook`:
 ```
 python3 -m venv .env
 source .env/bin/activate
