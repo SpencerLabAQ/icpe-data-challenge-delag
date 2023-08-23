@@ -14,7 +14,7 @@ The anomaly column indicates performance issue presence: `0` means no anomalies,
 Each scenario involves two different types of performance issues (namely, `1` and `2`).
 Each type of performance issue affect a distict set of RPCs.
 For a detailed exaplanation of the dataset creation process, refer to Section X of [(Traini and Cortellessa, 2023)](https://doi.org/10.1109/TSE.2023.3266041).
-The csv files reported in the [data](data) folder are utilized in the context of RQ1, RQ2, and RQ3 evaluation.
+The csv files reported in the [data](data) folder are utilized in the context of RQ1, RQ2, and RQ3.
 
 Questions about the dataset can be asked by opening issues on this repository, or by sending an e-mail to icpe2024-data@easychair.org.
 
