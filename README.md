@@ -5,12 +5,11 @@ Information about the track:
 
 The dataset comprises 560 csv files with pre-processed execution traces from two open-source microservices systems, namely [Train-Ticket](https://github.com/FudanSELab/train-ticket) and [E-Shopper](https://github.com/SEALABQualityGroup/E-Shopper).
 
-T All trace data are organized in tabular format within the [data](data) folder. 
+All trace data are organized in tabular format within the [data](data) folder. 
 Each CSV corresponds to a unique scenario involving specific performance anomalies affecting one or more Remote Procedure Calls (RPCs).
-Rows in the CSV represent individual end-to-end requests.
-Columns show the cumulative response time (in milliseconds) for specific RPCs within those requests. If an RPC is invoked multiple times within a request, response times from all invocations are summed.
-The `Latency`` column provides the response time for the root RPC, reflecting the end-to-end request time.
-The anomaly column indicates performance issue presence: `0` means no anomalies, while values ≥ `1` indicate the presence of a performance issue.
+Rows in the CSV represent individual end-to-end requests, columns reports cumulative response time (in milliseconds) for specific RPCs within requests. If an RPC is invoked multiple times within a request, response times from all invocations are summed.
+The `Latency` column provides the response time for the root RPC, reflecting the end-to-end request time.
+An additional column (`anomaly`) indicates the presence of a performance issue in the request: `0` means no anomalies, while values ≥ `1` indicate the presence of a performance issue.
 Each scenario involves two different types of performance issues (namely, `1` and `2`).
 Each type of performance issue affect a distict set of RPCs.
 For a detailed exaplanation of the dataset creation process, refer to Section X of [(Traini and Cortellessa, 2023)](https://doi.org/10.1109/TSE.2023.3266041).
