@@ -9,7 +9,7 @@ The dataset comprises 560 CSV files containing pre-processed execution traces.  
 The entire dataset is organized within the [data](data) folder. Each CSV file corresponds to a unique scenario, involving specific performance anomalies injected into one or more Remote Procedure Calls (RPCs). The rows in these CSV files represent individual end-to-end requests, while the columns detail the cumulative response time (in milliseconds) for certain RPCs within these requests. When an RPC is invoked multiple times within a single request, the response times from all these invocations are summed.
 The `Latency` column denotes the response time for the root RPC, reflecting the end-to-end response time of a request.
 The `anomaly` column serves as a marker for performance anomalies. A `0` indicates no performance issues. On the other hand, values of `1` or `2` represent specific performance problems. Each scenario features two separate performance issue types (i.e., `1` and `2` ),  where each type affects a different subset of RPCs.
-For a detailed explanation of the dataset creation process, refer to Section X of [(Traini and Cortellessa, 2023)](https://doi.org/10.1109/TSE.2023.3266041).
+For a detailed explanation of the dataset creation process, refer to Section 5.3 of [(Traini and Cortellessa, 2023)](https://doi.org/10.1109/TSE.2023.3266041).
 The CSV files in this repository are used for the paper evaluation in the context of RQ1, RQ2, and RQ3.
 
 Questions about the dataset can be asked by opening issues on this repository, or by sending an e-mail to icpe2024-data@easychair.org.
